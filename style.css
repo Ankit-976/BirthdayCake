@@ -255,3 +255,8 @@ body {
     transform: scale(0.8);
   }
 }
+@media screen and (max-width:700px) {
+    .hb h1{
+        font-size: 1.8rem;
+    }
+}
