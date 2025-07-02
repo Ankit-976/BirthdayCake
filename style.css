@@ -208,14 +208,17 @@ body {
   }
 }
 .hb{
+    display: flex;
+    justify-content: center;
+}
+.hb h1{
     font-family: "Happy Monkey", system-ui;
     position: absolute;
+    width: 100%;
     top: 70vh;
-    left: 38vw;
+    text-align: center;
     color: gold;
-    display: flex;
     font-weight: bold;
-    flex-wrap: wrap;
     text-shadow:
         0 0 5px gold,
         0 0 10px gold,
