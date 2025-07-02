@@ -213,7 +213,9 @@ body {
     top: 70vh;
     left: 38vw;
     color: gold;
+    display: flex;
     font-weight: bold;
+    flex-wrap: wrap;
     text-shadow:
         0 0 5px gold,
         0 0 10px gold,
@@ -223,6 +225,7 @@ body {
         0 0 30px goldenrod,
         0 0 35px #ffcc00;
         animation: sparkle 1.5s infinite alternate ease-in-out;
+
 }
 @keyframes sparkle {
   0% {
