@@ -236,7 +236,7 @@ body {
       0 0 4px #ffdd66,
       0 0 8px #ffcc00,
       0 0 16px #ffaa00;
-    transform: scale(1);
+    transform: scale(0.8);
   }
   50% {
     text-shadow:
@@ -244,7 +244,7 @@ body {
       0 0 12px #ffdd66,
       0 0 24px #ffcc00,
       0 0 32px #ffaa00;
-    transform: scale(1.03);
+    transform: scale(1);
   }
   100% {
     text-shadow:
@@ -252,6 +252,6 @@ body {
       0 0 6px #ffdd66,
       0 0 12px #ffcc00,
       0 0 24px #ffaa00;
-    transform: scale(1);
+    transform: scale(0.8);
   }
 }
